@@ -119,25 +119,12 @@ const over = () => {
 
     if ( n1 > 100 || n2 > 100 || n3 > 100 || n4 > 100 ){
         return answer.textContent = 'Please enter number below 100'
-    }
-
-};
-
-function under(){
-    let hwNum = document.querySelector('#hwAverage').value;
-    let mtNum = document.querySelector('#midTerm').value;
-    let feNum = document.querySelector('#finalExam').value;
-    let partiNum = document.querySelector('#participation').value;
-    let answer = document.querySelector('#result');
-
-    n1 = Number(hwNum);
-    n2 = Number(mtNum);
-    n3 = Number(feNum);
-    n4 = Number(partiNum);
-
-    if ( n1 < 0 || n2 < 0 || n3 < 0 || n4 < 0 ){
+    }else if (n1 < 0 || n2 < 0 || n3 < 0 || n4 < 0){
         return answer.textContent = 'Please enter number greater than 0'
     }
+
 };
 
-let submit = document.querySelector('#submit').addEventListener('click', function() { answer();checkForErrors(); checkForOver(); checkforUnder(); retakeSemester(); over(); under() } )
+
+
+let submit = document.querySelector('#submit').addEventListener('click', function() { answer();checkForErrors(); checkForOver(); checkforUnder(); retakeSemester(); over() } )
