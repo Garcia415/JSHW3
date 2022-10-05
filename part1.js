@@ -135,7 +135,7 @@ function under(){
     n3 = Number(feNum);
     n4 = Number(partiNum);
 
-    if ( n1 < 0 || n2 < 100 || n3 < 100 || n4 < 100 ){
+    if ( n1 < 0 || n2 < 0 || n3 < 0 || n4 < 0 ){
         return answer.textContent = 'Please enter number greater than 0'
     }
 };
