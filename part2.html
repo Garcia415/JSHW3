@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part2.css">
+    <script src="part2.js" defer></script>
+    <title>Part 2</title>
+</head>
+<body>
+    <header>
+        <h1>Part 2</h1>
+    </header>
+    <section>
+      <div class="nameDiv">
+        <label for="salesPersonName">Enter Employee Name : </label>
+        <textarea name="name" id="name" cols="20" rows="1" placeholder="Enter Name" class="name"></textarea>
+      </div>
+        <br>
+        <h2>Input the number of items sold for each item number. <i><b>See bottom reference</b></i></h2>
+        <br>
+        <br>
+     <div class="Number1">
+        <label for="number1">Item 1 :</label>
+        <textarea name="item1" id="item1" cols="20" rows="1" class="one" ></textarea>
+     </div>
+     <div class="Number2">
+        <label for="number1">Item 2 :</label>
+        <textarea name="item2" id="item2" cols="20" rows="1" class="two" ></textarea>
+     </div>
+     <div class="Number3">
+        <label for="number1">Item 3 :</label>
+        <textarea name="item3" id="item3" cols="20" rows="1" class="three" ></textarea>
+     </div>
+     <div class="Number4">
+        <label for="number1">Item 4 :</label>
+        <textarea name="item4" id="item4" cols="20" rows="1" class="four" ></textarea>
+     </div>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT" id="submit"> <input type="reset" value="RESET" id="reset">
+    </section>
+    <br>
+    <aside>
+        <table>
+          <tr>
+            <th>Item #</th>
+            <th>Price</th>
+            <th>Numbers Sold</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>$239.99</td>
+            <td><textarea name="item1Total" id="item1Total" cols="30" rows="1" disabled></textarea></td>
+            <td><textarea name="item1Sum" id="item1Sum" cols="30" rows="1"disabled></textarea></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>$129.75</td>
+            <td><textarea name="item2Total" id="item2Total" cols="30" rows="1" disabled></textarea></td>
+            <td><textarea name="item2Sum" id="item2Sum" cols="30" rows="1" disabled></textarea></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>$99.95</td>
+            <td><textarea name="item3Total" id="item3Total" cols="30" rows="1" disabled></textarea></td>
+            <td><textarea name="item3Sum" id="item3Sum" cols="30" rows="1" disabled></textarea></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>$350.89</td>
+            <td><textarea name="item4Total" id="item4Total" cols="30" rows="1" disabled></textarea></td>
+            <td><textarea name="item4Sum" id="item4Sum" cols="30" rows="1" disabled></textarea></td>
+          </tr>
+        </table>
+        <table>
+          <tr class="tr1">
+            <td class="sold">Total Amount Sold : </td>
+            <td><div id="without"></div></td>
+          </tr>
+          <tr class="tr2">
+            <td class="sold">Total Weekly Take Home : </td>
+            <td><div id="bonus"></div></td>
+          </tr>
+        </table>
+    </aside>
+    <p><a href="index.html">Home</a></p>
+</body>
+</html>

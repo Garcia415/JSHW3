@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+header{
+    margin-bottom: 20px;
+}
+.nameDiv{
+    display: flex;
+}
+.Number1, .Number2, .Number3, .Number4{
+    display: flex;
+    margin-bottom: 2px;
+}
+textarea{
+    resize: none;
+}
+section, aside{
+    margin-left: 20px;
+}
+.tr1{
+    display: flex;
+}
+.tr2{
+    display: flex;
+}
+.sold{
+    margin-right: 5px;
+}

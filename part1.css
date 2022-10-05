@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rubric{
+    display: flex;
+    flex-direction: column;
+}
+.A-tier, .B-tier, .C-tier, .D-tier, .F-tier{
+    display: flex;
+    width: 20%;
+    border: 2px solid black;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.answer{
+    display: flex;
+    
+}

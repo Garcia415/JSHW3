@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part1.css">
+    <script src="part1.js" defer></script>
+    <title>part 1</title>
+</head>
+<body>
+    <header>
+        <h1>Part 1</h1>
+    </header>
+    <br>
+    <label for="hwAvg"><b>Enter</b> Homework Average : </label>
+    <input type="text" maxlength="5" name="hwAverage" id="hwAverage" placeholder="Enter Number 0-100">
+    <br>
+    <label for="term"><b>Enter</b> Mid-term exam score : </label>
+    <input type="text" maxlength="5" name="midTerm" id="midTerm" placeholder="Enter Number 0-100">
+    <br>
+    <label for="exam"><b>Enter</b> Final exam score : </label>
+    <input type="text" maxlength="5" name="finalExam" id="finalExam" placeholder="Enter Number 0-100">
+    <br>
+    <label for="partic"><b>Enter</b> Participation : </label>
+    <input type="text" maxlength="5" name="participation" id="participation" placeholder="Enter Number 0-100">
+    <br>
+    <br>
+    <input type="button" value="SUBMIT" id="submit" class="submit">
+    <br>
+    <br>
+    <div class="answer">
+    <label for="resultLabel">Result : </label>
+    <div class="result" id="result"></div>
+    </div>
+    <br>
+    <br>
+
+    <div class="rubric">
+        <div class="A-tier">
+            <p>90-100  |  A</p>
+        </div>
+        <div class="B-tier">
+            <p>80-89  |  B</p>
+        </div>
+        <div class="C-tier">
+            <p>70-79  |  C</p>
+        </div>
+        <div class="D-tier">
+            <p>60-69  |  D</p>
+        </div>
+        <div class="F-tier">
+            <p>0-59  |  F</p>
+        </div>
+    </div>
+    <p><a href="index.html">Home</a></p>
+</body>
+</html>
