@@ -233,5 +233,6 @@ function refreshPage(){
     window.location.reload();
 } 
 
+
 let submit = document.querySelector('#submit').addEventListener('click', function() { totalNumber1(); totalSum1(); totalNumber2(); totalSum2(); totalNumber3(); totalSum3(); totalNumber4(); totalSum4(); withoutBonus(); withBonus(); alphabets(); onlyDigits() })
 let refresh = document.querySelector('#reset').addEventListener('click', function(){ refreshPage() })
